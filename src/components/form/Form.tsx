@@ -74,13 +74,13 @@ function Form() {
           <img src="../assets/images/qr_icon.png" alt="Qr code" className="qr_img"/>
           <div>
             <h3>Here's your short link...</h3>
-            <span>
+            {/* <span>
              <p>{}</p>
               <CopyToClipboard onCopy={()=>{
                 setCopy(true);
               }} text={shortLink}>{ !copy ? <img src="../assets/images/copy.png"alt="copy icon"/> : <img src="../assets/images/copied.png" alt="copy icon"/> }</CopyToClipboard>
 
-            </span>
+            </span> */}
           </div>
         </div>
       ) : (

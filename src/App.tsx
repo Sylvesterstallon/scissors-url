@@ -7,7 +7,7 @@ import "./App.css";
 // import Analytics from "@/components/analytics/Analytics";
 // import Faqs from "@/components/faqs/Faqs";
 // import MyUrls from "./MyURLs/MyUrls";
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route, Form } from "react-router-dom";
 import Signup from "./Pages/Signup";
 import Login from "./Pages/Login";
 import { BrowserRouter } from "react-router-dom";
